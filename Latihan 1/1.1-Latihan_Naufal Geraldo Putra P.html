@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran Praktikan</title>
+</head>
+
+<body>
+    <h2>Data Mahasiswa</h2>
+    <form action="#" method="POST">
+        <table>
+            <tr>
+                <td><label for="Nim"><b>NIM:</b></label></td>
+                <td>:</td>
+                <td><input type="text" name="NIM_input" id="NIM_id" placeholder=""textarea></td>
+            </tr>
+            <tr>
+                <td><label for="uname_id"><b>Nama:</b></label></td>
+                <td>:</td>
+                <td><input type="text" name="Nama_input" id="Nama_id" placeholder=""textarea></td>
+            </tr>
+            <tr>
+                <td><label for="Tanggal_id"><b>Tgl Lahir (dd-mm-yyyy):</b></label></td>
+                <td>:</td>
+                <td><input type="text" placeholder="dd/mm/yyyy" onfocus="(this.type='date')" onblur="(this.type='text')"></td>
+            </tr>
+            <tr>
+                <td><b>Jenis Kelamin:</b></td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="jk_input" id="pria" value="Pria">
+                    <label for="pria">Pria</label>
+                    <input type="radio" name="jk_input" id="wanita" value="Wanita">
+                    <label for="wanita">Wanita</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="kritik_saran"><b>Alamat di Bandung:</b></label></td>
+                <td>:</td>
+                <td><textarea id="kritik_saran" name="kritik_saran" rows="5" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="Tinggal_id"><b>Tinggal di:</b></label></td>
+                <td>:</td>
+                <td>
+                    <select name="Tinggal_input" id="Tinggal_id">
+                        <option value="" selected>------Pilih------</option>
+                        <option value="D3">Kos/kontrakan</option>
+                        <option value="S1">Rumah Saudara</option>
+                        <option value="S2">Rumah Orang tua</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Pilih 2 hobi yang paling disukai:</b></td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" name="hobi_input" id="Science" value="Science">
+                    <label for="Science">Science</label><br>
+                    <input type="checkbox" name="hobi_input" id="Technology" value="Technology">
+                    <label for="Technology">Technology</label><br>
+                    <input type="checkbox" name="hobi_input" id="Art" value="Art">
+                    <label for="Art">Art</label><br>
+                    <input type="checkbox" name="hobi_input" id="Sport" value="Sport">
+                    <label for="Sport">Sport</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" align="left">
+                    <input type="button" value="Submit" class="btn-Submit">
+                    <input type="submit" value="Reset" class="btn-Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

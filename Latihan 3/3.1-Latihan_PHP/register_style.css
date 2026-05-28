@@ -1,0 +1,46 @@
+body{
+    font-family: Arial;
+    width: 400px;
+    margin: 120px auto;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form label{
+    width: 100px;
+}
+
+.form input{
+    flex: 1;
+    padding: 8px;
+}
+
+.button{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register-button{
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+}
+
+.login-link{
+    margin-left: 20px;
+    color: blue;
+    text-decoration: none;
+}
